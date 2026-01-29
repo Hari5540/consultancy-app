@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Hostel Management System{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div style="text-align: center; padding: 4rem 0;" class="animate-fadeIn">
+        <h1 style="font-size: 3rem; color: #2563eb; margin-bottom: 1rem;">
+            Hostel Management System
+        </h1>
+        <p style="font-size: 1.25rem; color: #64748b; margin-bottom: 2rem;">
+            Streamline your hostel operations with our comprehensive management platform
+        </p>
+        <a href="{{ url_for('auth.login') }}" class="btn btn-primary" style="font-size: 1.125rem; padding: 1rem 2rem;">
+            Get Started
+        </a>
+    </div>
+
+    <div class="stats-grid" style="margin-top: 4rem;">
+        <div class="stat-card stagger-item">
+            <div class="stat-value">🎓</div>
+            <div class="stat-label">Student Management</div>
+            <p style="margin-top: 1rem; opacity: 0.9;">Easy import and management of student data</p>
+        </div>
+        <div class="stat-card stagger-item">
+            <div class="stat-value">💳</div>
+            <div class="stat-label">Payment Processing</div>
+            <p style="margin-top: 1rem; opacity: 0.9;">Secure payment gateway integration</p>
+        </div>
+        <div class="stat-card stagger-item">
+            <div class="stat-value">📊</div>
+            <div class="stat-label">Analytics Dashboard</div>
+            <p style="margin-top: 1rem; opacity: 0.9;">Real-time insights and reports</p>
+        </div>
+        <div class="stat-card stagger-item">
+            <div class="stat-value">🔔</div>
+            <div class="stat-label">Announcements</div>
+            <p style="margin-top: 1rem; opacity: 0.9;">Keep everyone informed instantly</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
