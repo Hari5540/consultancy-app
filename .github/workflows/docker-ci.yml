@@ -26,4 +26,4 @@ jobs:
         with:
           context: ./Hostel_management/CONSULTANCY/consultancy_management
           push: true
-          tags: hari5540/consultancy-app:latest
+          tags: harikota5540/consultancy-app:latest
