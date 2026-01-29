@@ -21,4 +21,4 @@ jobs:
         run: |
           docker build \
             -t consultancy-app \
-            ./CONSULTANCY/consultancy_management
+            ./Hostel_management/CONSULTANCY/consultancy_management
