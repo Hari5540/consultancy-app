@@ -9,3 +9,4 @@ razorpay==1.4.1
 xlrd==2.0.1
 pytest
 pytest-flask
+gunicorn
